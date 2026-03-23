@@ -26,6 +26,11 @@ langchain-openai
 
 # 工具集成
 langchain-community
+pypdf
+python-docx
+sentence-transformers
+chromadb
+huggingface-hub
 
 # 其他依赖
 python-dotenv
