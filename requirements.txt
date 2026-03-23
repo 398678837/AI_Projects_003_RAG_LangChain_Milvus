@@ -1,6 +1,22 @@
 # 基础依赖
 langchain
 langgraph
+matplotlib
+numpy
+pandas
+scikit-learn
+seaborn
+
+# 深度学习依赖
+tensorflow
+keras
+
+# Web框架依赖
+fastapi
+uvicorn
+pydantic
+python-jose
+email-validator
 
 # 大模型集成
 langchain-openai
