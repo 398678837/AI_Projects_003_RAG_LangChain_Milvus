@@ -5,15 +5,14 @@
 ## 项目结构
 
 ```
-LangChain_LangGraph_Intro/
 ├── README.md              # 项目说明文档
 ├── requirements.txt       # 依赖包配置文件
-├── 101langchian/          # LangChain学习主文件夹
+├── 101_Langchian/         # LangChain学习主文件夹
 │   ├── 01基础问答链/       # 基础PromptTemplate+LLM链式调用
 │   ├── 02进阶链结构/       # 更复杂的链结构示例
 │   ├── 03集成外部工具/     # 集成外部工具的示例
 │   └── 04实战应用/         # 实战应用示例
-└── 102langgraph/          # LangGraph学习主文件夹
+└── 102_Langgraph/         # LangGraph学习主文件夹
     ├── 01基础流程/         # 基础2节点+条件边示例
     ├── 02复杂流程/         # 更复杂的流程示例
     ├── 03状态管理/         # 状态管理示例
