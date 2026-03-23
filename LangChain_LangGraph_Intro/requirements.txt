@@ -1,0 +1,13 @@
+# 基础依赖
+langchain
+langgraph
+
+# 大模型集成
+langchain-openai
+
+# 工具集成
+langchain-community
+
+# 其他依赖
+python-dotenv
+requests
