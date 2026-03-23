@@ -1,6 +1,6 @@
-# LangChain + LangGraph + Matplotlib + Seaborn + Scikit-learn + Keras + FastAPI 入门学习项目
+# LangChain + LangGraph + Matplotlib + Seaborn + Scikit-learn + Keras + FastAPI + SciPy 入门学习项目
 
-本项目包含LangChain、LangGraph、Matplotlib、Seaborn、Scikit-learn、Keras和FastAPI的入门示例，帮助开发者快速上手这些强大的AI开发、数据可视化、机器学习和Web框架。
+本项目包含LangChain、LangGraph、Matplotlib、Seaborn、Scikit-learn、Keras、FastAPI和SciPy的入门示例，帮助开发者快速上手这些强大的AI开发、数据可视化、机器学习、Web框架和科学计算库。
 
 ## 项目结构
 
@@ -52,6 +52,47 @@
 │   ├── 06_Data_Validation_数据验证/         # 数据验证
 │   ├── 07_Dependency_Injection_依赖注入/    # 依赖注入
 │   └── 08_Real_World_实战应用/             # 实战应用
+├── 006_SciPy/             # SciPy学习主文件夹
+│   ├── 01_Basic_Concepts_基础概念与环境/     # 基础概念和环境设置
+│   ├── 02_Linear_Algebra_线性代数/         # 线性代数
+│   ├── 03_Statistics_统计函数/             # 统计函数
+│   ├── 04_Integration_积分/                # 积分
+│   ├── 05_Optimization_优化/               # 优化
+│   ├── 06_Interpolation_插值/              # 插值
+│   ├── 07_Signal_Processing_信号处理/       # 信号处理
+│   └── 08_Real_World_实战应用/             # 实战应用
+├── 201_CV/                # 计算机视觉学习主文件夹
+│   ├── 01_Basic_Concepts_基础概念与环境/     # 基础概念和环境设置
+│   ├── 02_Image_Processing_图像处理基础/     # 图像处理基础
+│   ├── 03_Object_Detection_目标检测/        # 目标检测
+│   ├── 04_Image_Classification_图像分类/    # 图像分类
+│   ├── 05_Image_Segmentation_图像分割/      # 图像分割
+│   ├── 06_Face_Recognition_人脸识别/        # 人脸识别
+│   └── 07_Real_World_实战应用/             # 实战应用
+├── 202_Knowledge_Graph/   # 知识图谱学习主文件夹
+│   ├── 01_Basic_Concepts_基础概念与环境/     # 基础概念和环境设置
+│   ├── 02_Graph_Construction_图谱构建/       # 图谱构建
+│   ├── 03_Knowledge_Extraction_知识抽取/     # 知识抽取
+│   ├── 04_Graph_Query_图谱查询/            # 图谱查询
+│   ├── 05_Graph_Embedding_图谱嵌入/        # 图谱嵌入
+│   ├── 06_Knowledge_Reasoning_知识推理/     # 知识推理
+│   └── 07_Real_World_实战应用/             # 实战应用
+├── 203_Speech_Processing/  # 语音处理学习主文件夹
+│   ├── 01_Basic_Concepts_基础概念与环境/     # 基础概念和环境设置
+│   ├── 02_Speech_Processing_语音处理基础/     # 语音处理基础
+│   ├── 03_Speech_Recognition_语音识别/        # 语音识别
+│   ├── 04_Speech_Synthesis_语音合成/         # 语音合成
+│   ├── 05_Speaker_Recognition_说话人识别/    # 说话人识别
+│   ├── 06_Speech_Enhancement_语音增强/       # 语音增强
+│   └── 07_Real_World_实战应用/             # 实战应用
+├── 204_Recommender_System/  # 推荐系统学习主文件夹
+│   ├── 01_Basic_Concepts_基础概念与环境/     # 基础概念和环境设置
+│   ├── 02_Collaborative_Filtering_协同过滤/  # 协同过滤
+│   ├── 03_Content_Based_基于内容/           # 基于内容的推荐
+│   ├── 04_Hybrid_Methods_混合方法/         # 混合推荐方法
+│   ├── 05_Deep_Learning_深度学习/          # 深度学习推荐
+│   ├── 06_Evaluation_评估指标/            # 推荐系统评估指标
+│   └── 07_Real_World_实战应用/             # 实战应用
 ├── 101_Langchian/         # LangChain学习主文件夹
 │   ├── 01_Basic_Chain_基础问答链/            # 基础PromptTemplate+LLM链式调用
 │   ├── 02_Advanced_Chain_进阶链结构/         # 更复杂的链结构示例
@@ -129,6 +170,52 @@
 6. **06_Data_Validation_数据验证**：学习数据验证功能
 7. **07_Dependency_Injection_依赖注入**：学习依赖注入功能
 8. **08_Real_World_实战应用**：学习FastAPI的实战应用
+
+### SciPy学习路径
+1. **01_Basic_Concepts_基础概念与环境**：学习SciPy的基本概念和环境配置
+2. **02_Linear_Algebra_线性代数**：学习线性代数功能
+3. **03_Statistics_统计函数**：学习统计函数功能
+4. **04_Integration_积分**：学习积分功能
+5. **05_Optimization_优化**：学习优化功能
+6. **06_Interpolation_插值**：学习插值功能
+7. **07_Signal_Processing_信号处理**：学习信号处理功能
+8. **08_Real_World_实战应用**：学习SciPy的实战应用
+
+### CV学习路径
+1. **01_Basic_Concepts_基础概念与环境**：学习计算机视觉的基本概念和环境配置
+2. **02_Image_Processing_图像处理基础**：学习图像处理的基本操作
+3. **03_Object_Detection_目标检测**：学习目标检测的基本方法
+4. **04_Image_Classification_图像分类**：学习图像分类的基本方法
+5. **05_Image_Segmentation_图像分割**：学习图像分割的基本方法
+6. **06_Face_Recognition_人脸识别**：学习人脸识别的基本方法
+7. **07_Real_World_实战应用**：学习计算机视觉的实战应用
+
+### 知识图谱学习路径
+1. **01_Basic_Concepts_基础概念与环境**：学习知识图谱的基本概念和环境配置
+2. **02_Graph_Construction_图谱构建**：学习知识图谱的构建方法
+3. **03_Knowledge_Extraction_知识抽取**：学习从文本中抽取知识的方法
+4. **04_Graph_Query_图谱查询**：学习知识图谱的查询方法
+5. **05_Graph_Embedding_图谱嵌入**：学习知识图谱的嵌入方法
+6. **06_Knowledge_Reasoning_知识推理**：学习知识图谱的推理方法
+7. **07_Real_World_实战应用**：学习知识图谱的实战应用
+
+### 语音处理学习路径
+1. **01_Basic_Concepts_基础概念与环境**：学习语音处理的基本概念和环境配置
+2. **02_Speech_Processing_语音处理基础**：学习语音处理的基础操作
+3. **03_Speech_Recognition_语音识别**：学习语音识别的基本方法
+4. **04_Speech_Synthesis_语音合成**：学习语音合成的基本方法
+5. **05_Speaker_Recognition_说话人识别**：学习说话人识别的基本方法
+6. **06_Speech_Enhancement_语音增强**：学习语音增强的基本方法
+7. **07_Real_World_实战应用**：学习语音处理的实战应用
+
+### 推荐系统学习路径
+1. **01_Basic_Concepts_基础概念与环境**：学习推荐系统的基本概念和环境配置
+2. **02_Collaborative_Filtering_协同过滤**：学习协同过滤推荐算法
+3. **03_Content_Based_基于内容**：学习基于内容的推荐算法
+4. **04_Hybrid_Methods_混合方法**：学习混合推荐方法
+5. **05_Deep_Learning_深度学习**：学习深度学习推荐算法
+6. **06_Evaluation_评估指标**：学习推荐系统评估指标
+7. **07_Real_World_实战应用**：学习推荐系统的实战应用
 
 ### LangChain学习路径
 1. **01_Basic_Chain_基础问答链**：学习基本的PromptTemplate和LLM调用

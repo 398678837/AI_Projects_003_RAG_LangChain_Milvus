@@ -6,6 +6,9 @@ numpy
 pandas
 scikit-learn
 seaborn
+scipy
+opencv-python
+networkx
 
 # 深度学习依赖
 tensorflow
@@ -27,3 +30,8 @@ langchain-community
 # 其他依赖
 python-dotenv
 requests
+
+# 语音处理依赖
+sounddevice
+speechrecognition
+pyttsx3
