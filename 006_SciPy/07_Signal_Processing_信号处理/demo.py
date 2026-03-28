@@ -249,7 +249,7 @@ carrier_freq = 100  # 载波频率
 modulated_signal = np.sin(2 * np.pi * carrier_freq * t) * np.sin(2 * np.pi * freq1 * t)
 
 # 解调
- demodulated_signal = modulated_signal * np.sin(2 * np.pi * carrier_freq * t)
+demodulated_signal = modulated_signal * np.sin(2 * np.pi * carrier_freq * t)
 
 # 低通滤波解调信号
 b_demod, a_demod = signal.butter(2, 15, fs=fs)
