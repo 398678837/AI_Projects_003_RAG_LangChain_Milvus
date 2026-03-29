@@ -278,7 +278,7 @@ if len(approx) == 4:
     
     # 目标点
     width, height = 300, 400
-dst = np.array([[0, 0], [width-1, 0], [width-1, height-1], [0, height-1]], np.float32)
+    dst = np.array([[0, 0], [width-1, 0], [width-1, height-1], [0, height-1]], np.float32)
     
     # 透视变换
     M = cv2.getPerspectiveTransform(np.float32(approx), dst)
