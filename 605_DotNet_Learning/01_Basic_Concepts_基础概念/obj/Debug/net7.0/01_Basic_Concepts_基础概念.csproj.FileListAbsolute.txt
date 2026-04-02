@@ -1,0 +1,15 @@
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/605_DotNet_Learning/01_Basic_Concepts_基础概念/bin/Debug/net7.0/01_Basic_Concepts_基础概念
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/605_DotNet_Learning/01_Basic_Concepts_基础概念/bin/Debug/net7.0/01_Basic_Concepts_基础概念.deps.json
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/605_DotNet_Learning/01_Basic_Concepts_基础概念/bin/Debug/net7.0/01_Basic_Concepts_基础概念.runtimeconfig.json
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/605_DotNet_Learning/01_Basic_Concepts_基础概念/bin/Debug/net7.0/01_Basic_Concepts_基础概念.dll
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/605_DotNet_Learning/01_Basic_Concepts_基础概念/bin/Debug/net7.0/01_Basic_Concepts_基础概念.pdb
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net7.0/01_Basic_Concepts_基础概念.csproj.AssemblyReference.cache
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net7.0/01_Basic_Concepts_基础概念.GeneratedMSBuildEditorConfig.editorconfig
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net7.0/01_Basic_Concepts_基础概念.AssemblyInfoInputs.cache
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net7.0/01_Basic_Concepts_基础概念.AssemblyInfo.cs
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net7.0/01_Basic_Concepts_基础概念.csproj.CoreCompileInputs.cache
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net7.0/01_Basic_Concepts_基础概念.dll
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net7.0/refint/01_Basic_Concepts_基础概念.dll
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net7.0/01_Basic_Concepts_基础概念.pdb
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net7.0/01_Basic_Concepts_基础概念.genruntimeconfig.cache
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net7.0/ref/01_Basic_Concepts_基础概念.dll
