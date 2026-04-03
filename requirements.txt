@@ -13,6 +13,7 @@ networkx
 # 深度学习依赖
 tensorflow
 keras
+pytorch
 
 # Web框架依赖
 fastapi
@@ -23,6 +24,7 @@ email-validator
 
 # 大模型集成
 langchain-openai
+openai
 
 # 工具集成
 langchain-community
@@ -32,6 +34,14 @@ sentence-transformers
 chromadb
 huggingface-hub
 
+# 数据库依赖
+redis
+pymongo
+
+# 安全依赖
+pyjwt
+cryptography
+
 # 其他依赖
 python-dotenv
 requests
@@ -40,3 +50,6 @@ requests
 sounddevice
 speechrecognition
 pyttsx3
+
+# 部署依赖
+gunicorn

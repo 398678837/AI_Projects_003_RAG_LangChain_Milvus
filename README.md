@@ -1,361 +1,140 @@
-# LangChain + LangGraph + Matplotlib + Seaborn + Scikit-learn + Keras + FastAPI + SciPy 入门学习项目
+# AI 学习资源库
 
-本项目包含LangChain、LangGraph、Matplotlib、Seaborn、Scikit-learn、Keras、FastAPI和SciPy的入门示例，帮助开发者快速上手这些强大的AI开发、数据可视化、机器学习、Web框架和科学计算库。
+## 项目简介
 
-## 项目结构
+本项目是一个综合性的AI学习资源库，涵盖了从基础数据结构到前沿AI技术的完整学习体系。包含了多种编程语言、框架、工具和实践项目，旨在为AI开发者提供全面的学习资源。
 
-```
-├── README.md              # 项目说明文档
-├── requirements.txt       # 依赖包配置文件
-├── 001_Matplotlib/        # Matplotlib学习主文件夹
-│   ├── 01_Basic_Concepts_基础概念与环境/     # 基础概念和环境设置
-│   ├── 02_Basic_Plots_基本图形绘制/           # 基本图形绘制
-│   ├── 03_Styling_图形美化与定制/             # 图形美化与定制
-│   ├── 04_Subplots_多子图布局/                # 多子图布局
-│   ├── 05_3D_Plots_三维图形/                 # 三维图形
-│   ├── 06_Interactive_Plots_交互式图形/       # 交互式图形
-│   ├── 07_Data_Visualization_数据可视化实战/   # 数据可视化实战
-│   └── 08_Best_Practices_常见问题与最佳实践/  # 常见问题与最佳实践
-├── 002_Seaborn/           # Seaborn学习主文件夹
-│   ├── 01_Basic_Concepts_基础概念与环境/     # 基础概念和环境设置
-│   ├── 02_Basic_Plots_基本图形绘制/           # 基本图形绘制
-│   ├── 03_Statistical_Plots_统计图形/         # 统计图形
-│   ├── 04_Categorical_Plots_分类数据图形/     # 分类数据图形
-│   ├── 05_Distribution_Plots_分布图形/        # 分布图形
-│   ├── 06_Regression_Plots_回归图形/         # 回归图形
-│   ├── 07_Heatmaps_热力图/                  # 热力图
-│   └── 08_Real_World_实战应用/             # 实战应用
-├── 003_Scikit-learn/      # Scikit-learn学习主文件夹
-│   ├── 01_Basic_Concepts_基础概念与环境/     # 基础概念和环境设置
-│   ├── 02_Data_Preprocessing_数据预处理/       # 数据预处理
-│   ├── 03_Supervised_Learning_监督学习/       # 监督学习
-│   ├── 04_Unsupervised_Learning_无监督学习/   # 无监督学习
-│   ├── 05_Model_Evaluation_模型评估/          # 模型评估
-│   ├── 06_Feature_Engineering_特征工程/       # 特征工程
-│   ├── 07_Model_Selection_模型选择/           # 模型选择
-│   └── 08_Real_World_实战应用/             # 实战应用
-├── 004_Keras/             # Keras学习主文件夹
-│   ├── 01_Basic_Concepts_基础概念与环境/     # 基础概念和环境设置
-│   ├── 02_Model_Basics_模型基础/             # 模型基础
-│   ├── 03_Sequential_Models_序列模型/        # 序列模型
-│   ├── 04_Functional_API_函数式API/          # 函数式API
-│   ├── 05_CNN_卷积神经网络/                 # 卷积神经网络
-│   ├── 06_RNN_循环神经网络/                 # 循环神经网络
-│   ├── 07_Transfer_Learning_迁移学习/        # 迁移学习
-│   └── 08_Real_World_实战应用/             # 实战应用
-├── 005_FastAPI/           # FastAPI学习主文件夹
-│   ├── 01_Basic_Concepts_基础概念与环境/     # 基础概念和环境设置
-│   ├── 02_RESTful_API_RESTful风格API/       # RESTful风格API
-│   ├── 03_Routing_路由/                     # 路由
-│   ├── 04_Request_Handling_请求处理/         # 请求处理
-│   ├── 05_Response_Handling_响应处理/        # 响应处理
-│   ├── 06_Data_Validation_数据验证/         # 数据验证
-│   ├── 07_Dependency_Injection_依赖注入/    # 依赖注入
-│   └── 08_Real_World_实战应用/             # 实战应用
-├── 006_SciPy/             # SciPy学习主文件夹
-│   ├── 01_Basic_Concepts_基础概念与环境/     # 基础概念和环境设置
-│   ├── 02_Linear_Algebra_线性代数/         # 线性代数
-│   ├── 03_Statistics_统计函数/             # 统计函数
-│   ├── 04_Integration_积分/                # 积分
-│   ├── 05_Optimization_优化/               # 优化
-│   ├── 06_Interpolation_插值/              # 插值
-│   ├── 07_Signal_Processing_信号处理/       # 信号处理
-│   └── 08_Real_World_实战应用/             # 实战应用
-├── 201_CV/                # 计算机视觉学习主文件夹
-│   ├── 01_Basic_Concepts_基础概念与环境/     # 基础概念和环境设置
-│   ├── 02_Image_Processing_图像处理基础/     # 图像处理基础
-│   ├── 03_Object_Detection_目标检测/        # 目标检测
-│   ├── 04_Image_Classification_图像分类/    # 图像分类
-│   ├── 05_Image_Segmentation_图像分割/      # 图像分割
-│   ├── 06_Face_Recognition_人脸识别/        # 人脸识别
-│   └── 07_Real_World_实战应用/             # 实战应用
-├── 202_Knowledge_Graph/   # 知识图谱学习主文件夹
-│   ├── 01_Basic_Concepts_基础概念与环境/     # 基础概念和环境设置
-│   ├── 02_Graph_Construction_图谱构建/       # 图谱构建
-│   ├── 03_Knowledge_Extraction_知识抽取/     # 知识抽取
-│   ├── 04_Graph_Query_图谱查询/            # 图谱查询
-│   ├── 05_Graph_Embedding_图谱嵌入/        # 图谱嵌入
-│   ├── 06_Knowledge_Reasoning_知识推理/     # 知识推理
-│   └── 07_Real_World_实战应用/             # 实战应用
-├── 203_Speech_Processing/  # 语音处理学习主文件夹
-│   ├── 01_Basic_Concepts_基础概念与环境/     # 基础概念和环境设置
-│   ├── 02_Speech_Processing_语音处理基础/     # 语音处理基础
-│   ├── 03_Speech_Recognition_语音识别/        # 语音识别
-│   ├── 04_Speech_Synthesis_语音合成/         # 语音合成
-│   ├── 05_Speaker_Recognition_说话人识别/    # 说话人识别
-│   ├── 06_Speech_Enhancement_语音增强/       # 语音增强
-│   └── 07_Real_World_实战应用/             # 实战应用
-├── 204_Recommender_System/  # 推荐系统学习主文件夹
-│   ├── 01_Basic_Concepts_基础概念与环境/     # 基础概念和环境设置
-│   ├── 02_Collaborative_Filtering_协同过滤/  # 协同过滤
-│   ├── 03_Content_Based_基于内容/           # 基于内容的推荐
-│   ├── 04_Hybrid_Methods_混合方法/         # 混合推荐方法
-│   ├── 05_Deep_Learning_深度学习/          # 深度学习推荐
-│   ├── 06_Evaluation_评估指标/            # 推荐系统评估指标
-│   └── 07_Real_World_实战应用/             # 实战应用
-├── 101_Langchian/         # LangChain学习主文件夹
-│   ├── 01_Basic_Chain_基础问答链/            # 基础PromptTemplate+LLM链式调用
-│   ├── 02_Advanced_Chain_进阶链结构/         # 更复杂的链结构示例
-│   ├── 03_Tools_集成外部工具/                # 集成外部工具的示例
-│   ├── 04_RAG_检索增强生成/                  # 检索增强生成示例
-│   ├── 05_Agents_智能代理/                  # 智能代理示例
-│   ├── 06_Memory_记忆管理/                  # 记忆管理示例
-│   ├── 07_Evaluation_评估与优化/            # 评估与优化示例
-│   └── 08_Real_World_实战应用/             # 实战应用示例
-├── 102_Langgraph/         # LangGraph学习主文件夹
-│   ├── 01_Basic_Flow_基础流程/             # 基础2节点+条件边示例
-│   ├── 02_Advanced_Flow_复杂流程/          # 更复杂的流程示例
-│   ├── 03_State_Management_状态管理/       # 状态管理示例
-│   └── 04_Real_World_实战应用/            # 实战应用示例
-├── 301_RAG_落地项目/        # RAG落地项目
-│   ├── 01_Basic_Demos_基础Demo/           # 基础Demo
-│   └── 02_Enterprise_RAG_企业级RAG系统/    # 企业级RAG系统
-├── 302_RAG_Concepts_RAG概念学习/  # RAG概念学习
-│   ├── 01_Basic_Concepts_基础概念/         # RAG基础概念
-│   ├── 02_Document_Processing_文档处理/    # 文档处理技术
-│   ├── 03_Embedding_向量编码/              # 向量编码技术
-│   ├── 04_Vector_Storage_向量存储/         # 向量存储技术
-│   ├── 05_Semantic_Retrieval_语义检索/     # 语义检索技术
-│   ├── 06_Augmented_Generation_增强生成/   # 增强生成技术
-│   ├── 07_Optimization_优化策略/           # 优化策略
-│   └── 08_Real_World_实战应用/             # 实战应用
-├── 401_Vector_Database_向量库落地项目/  # 向量库落地项目
-│   ├── 01_Qdrant/                         # Qdrant向量库
-│   └── 02_Milvus/                         # Milvus向量库
-├── 402/                                  # 更多向量库的应用和实践
-├── 205/                                  # 计算机视觉相关技术
-└── 206/                                  # 其他AI相关技术
-```
+## 目录结构
 
-## 环境准备
+### 基础工具库
+- **001_Matplotlib** - 数据可视化库
+- **002_Seaborn** - 统计数据可视化库
+- **003_Scikit-learn** - 机器学习库
+- **004_Keras** - 深度学习库
+- **005_FastAPI** - Web框架
+- **006_SciPy** - 科学计算库
 
-1. 克隆本项目
-2. 安装依赖：
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. 配置环境变量：
-   - 设置 `API_KEY` 环境变量，用于调用大模型API
+### 大语言模型
+- **101_Langchian** - LangChain框架学习
+- **102_Langgraph** - LangGraph框架学习
 
-## 学习路径
+### 人工智能领域
+- **201_CV** - 计算机视觉
+- **202_Knowledge_Graph** - 知识图谱
+- **203_Speech_Processing** - 语音处理
+- **204_Recommender_System** - 推荐系统
+- **205_Multimodal_Learning** - 多模态学习
+- **206_Robot_Learning** - 机器人学习
+- **207_ROS_Learning** - ROS机器人操作系统
+- **208_NLP_Study_NLP学习** - 自然语言处理
 
-### Matplotlib学习路径
-1. **01_Basic_Concepts_基础概念与环境**：学习Matplotlib的基本概念和环境配置
-2. **02_Basic_Plots_基本图形绘制**：学习基本图形的绘制方法
-3. **03_Styling_图形美化与定制**：学习如何美化和定制图形
-4. **04_Subplots_多子图布局**：学习如何创建多子图布局
-5. **05_3D_Plots_三维图形**：学习如何绘制三维图形
-6. **06_Interactive_Plots_交互式图形**：学习如何创建交互式图形
-7. **07_Data_Visualization_数据可视化实战**：学习数据可视化的实际应用
-8. **08_Best_Practices_常见问题与最佳实践**：学习常见问题的解决方案和最佳实践
+### RAG与向量数据库
+- **301_RAG_落地项目** - RAG实际应用
+- **302_RAG_Concepts_RAG概念学习** - RAG理论学习
+- **401_Vector_Database_Introduction_向量库简介** - 向量数据库入门
+- **403_Milvus_Project_Milvus项目** - Milvus向量数据库实践
 
-### Seaborn学习路径
-1. **01_Basic_Concepts_基础概念与环境**：学习Seaborn的基本概念和环境配置
-2. **02_Basic_Plots_基本图形绘制**：学习Seaborn的基本图形绘制
-3. **03_Statistical_Plots_统计图形**：学习Seaborn的统计图形
-4. **04_Categorical_Plots_分类数据图形**：学习Seaborn的分类数据图形
-5. **05_Distribution_Plots_分布图形**：学习Seaborn的分布图形
-6. **06_Regression_Plots_回归图形**：学习Seaborn的回归图形
-7. **07_Heatmaps_热力图**：学习Seaborn的热力图
-8. **08_Real_World_实战应用**：学习Seaborn的实战应用
+### 编程语言学习
+- **501_Java_Review** - Java复习
+- **601_Go_Learning** - Go语言学习
+- **602_Rust_Learning** - Rust语言学习
+- **603_C_Learning** - C语言学习
+- **606_JavaScript学习专题** - JavaScript学习
+- **607_Node.js学习专题** - Node.js学习
+- **608_TypeScript学习专题** - TypeScript学习
+- **609_Vue复习专题** - Vue复习
+- **610_React学习专题** - React学习
+- **611_Vue学习专题** - Vue学习
+- **612_Angular复习专题** - Angular复习
 
-### Scikit-learn学习路径
-1. **01_Basic_Concepts_基础概念与环境**：学习Scikit-learn的基本概念和环境配置
-2. **02_Data_Preprocessing_数据预处理**：学习数据预处理方法
-3. **03_Supervised_Learning_监督学习**：学习监督学习算法
-4. **04_Unsupervised_Learning_无监督学习**：学习无监督学习算法
-5. **05_Model_Evaluation_模型评估**：学习模型评估方法
-6. **06_Feature_Engineering_特征工程**：学习特征工程技术
-7. **07_Model_Selection_模型选择**：学习模型选择和调优
-8. **08_Real_World_实战应用**：学习Scikit-learn的实战应用
+### 后端框架
+- **613_MyBatis学习专题** - MyBatis学习
+- **614_Spring Boot学习专题** - Spring Boot学习
+- **615_Spring Cloud学习专题** - Spring Cloud学习
+- **616_Spring Boot Alibaba学习专题** - Spring Boot Alibaba学习
+- **617_Spring Security学习专题** - Spring Security学习
+- **618_Spring MVC学习专题** - Spring MVC学习
+- **619_Spring AI学习专题** - Spring AI学习
+- **620_Spring相关重要知识学习专题** - Spring相关知识
 
-### Keras学习路径
-1. **01_Basic_Concepts_基础概念与环境**：学习Keras的基本概念和环境配置
-2. **02_Model_Basics_模型基础**：学习Keras的模型基础操作
-3. **03_Sequential_Models_序列模型**：学习序列模型的使用
-4. **04_Functional_API_函数式API**：学习函数式API的使用
-5. **05_CNN_卷积神经网络**：学习卷积神经网络的使用
-6. **06_RNN_循环神经网络**：学习循环神经网络的使用
-7. **07_Transfer_Learning_迁移学习**：学习迁移学习的使用
-8. **08_Real_World_实战应用**：学习Keras的实战应用
+### 数据库与缓存
+- **621_JavaRedis学习专题** - Redis学习
+- **622_Shiro学习专题** - Shiro安全框架
+- **623_Quartz学习专题** - Quartz定时任务
+- **624_Elasticsearch学习专题** - Elasticsearch搜索引擎
+- **625_Netty学习专题** - Netty网络框架
+- **630_Hibernate学习专题** - Hibernate ORM框架
 
-### FastAPI学习路径
-1. **01_Basic_Concepts_基础概念与环境**：学习FastAPI的基本概念和环境配置
-2. **02_RESTful_API_RESTful风格API**：学习如何创建RESTful风格的API
-3. **03_Routing_路由**：学习FastAPI的路由功能
-4. **04_Request_Handling_请求处理**：学习如何处理请求
-5. **05_Response_Handling_响应处理**：学习如何处理响应
-6. **06_Data_Validation_数据验证**：学习数据验证功能
-7. **07_Dependency_Injection_依赖注入**：学习依赖注入功能
-8. **08_Real_World_实战应用**：学习FastAPI的实战应用
+### 消息队列
+- **627_RocketMQ学习专题** - RocketMQ消息队列
+- **628_RabbitMQ-Client学习专题** - RabbitMQ消息队列
+- **629_Kafka学习专题** - Kafka消息队列
 
-### SciPy学习路径
-1. **01_Basic_Concepts_基础概念与环境**：学习SciPy的基本概念和环境配置
-2. **02_Linear_Algebra_线性代数**：学习线性代数功能
-3. **03_Statistics_统计函数**：学习统计函数功能
-4. **04_Integration_积分**：学习积分功能
-5. **05_Optimization_优化**：学习优化功能
-6. **06_Interpolation_插值**：学习插值功能
-7. **07_Signal_Processing_信号处理**：学习信号处理功能
-8. **08_Real_World_实战应用**：学习SciPy的实战应用
+### Web技术
+- **631_HTTP_HTTPS学习专题** - HTTP/HTTPS协议
+- **632_跨域学习专题** - 跨域解决方案
+- **633_Cookie_Token_JWT学习专题** - 认证授权
+- **634_npm_yarn_pnpm学习专题** - 包管理工具
+- **635_Vite学习专题** - Vite构建工具
+- **636_Axios学习专题** - Axios HTTP客户端
 
-### CV学习路径
-1. **01_Basic_Concepts_基础概念与环境**：学习计算机视觉的基本概念和环境配置
-2. **02_Image_Processing_图像处理基础**：学习图像处理的基本操作
-3. **03_Object_Detection_目标检测**：学习目标检测的基本方法
-4. **04_Image_Classification_图像分类**：学习图像分类的基本方法
-5. **05_Image_Segmentation_图像分割**：学习图像分割的基本方法
-6. **06_Face_Recognition_人脸识别**：学习人脸识别的基本方法
-7. **07_Real_World_实战应用**：学习计算机视觉的实战应用
+### 移动端与前端
+- **637_微信小程序学习专题** - 微信小程序开发
+- **638_移动端开发学习专题** - 移动端开发
+- **639_Kotlin学习专题** - Kotlin语言
+- **640_安卓开发学习专题** - 安卓开发
+- **641_苹果开发学习专题** - 苹果开发
 
-### 知识图谱学习路径
-1. **01_Basic_Concepts_基础概念与环境**：学习知识图谱的基本概念和环境配置
-2. **02_Graph_Construction_图谱构建**：学习知识图谱的构建方法
-3. **03_Knowledge_Extraction_知识抽取**：学习从文本中抽取知识的方法
-4. **04_Graph_Query_图谱查询**：学习知识图谱的查询方法
-5. **05_Graph_Embedding_图谱嵌入**：学习知识图谱的嵌入方法
-6. **06_Knowledge_Reasoning_知识推理**：学习知识图谱的推理方法
-7. **07_Real_World_实战应用**：学习知识图谱的实战应用
+### 游戏与嵌入式开发
+- **642_Unity学习专题** - Unity游戏开发
+- **643_ESP32学习专题** - ESP32嵌入式开发
+- **644_STM32学习专题** - STM32嵌入式开发
 
-### 语音处理学习路径
-1. **01_Basic_Concepts_基础概念与环境**：学习语音处理的基本概念和环境配置
-2. **02_Speech_Processing_语音处理基础**：学习语音处理的基础操作
-3. **03_Speech_Recognition_语音识别**：学习语音识别的基本方法
-4. **04_Speech_Synthesis_语音合成**：学习语音合成的基本方法
-5. **05_Speaker_Recognition_说话人识别**：学习说话人识别的基本方法
-6. **06_Speech_Enhancement_语音增强**：学习语音增强的基本方法
-7. **07_Real_World_实战应用**：学习语音处理的实战应用
+### 安全相关
+- **645_安全框架学习专题** - 安全框架
+- **646_代码审计学习专题** - 代码审计
+- **647_恶意代码_木马分析学习专题** - 恶意代码分析
+- **648_逆向工具学习专题** - 逆向工具
+- **649_行为分析学习专题** - 行为分析
+- **650_木马原理学习专题** - 木马原理
+- **651_检测技术学习专题** - 检测技术
 
-### 推荐系统学习路径
-1. **01_Basic_Concepts_基础概念与环境**：学习推荐系统的基本概念和环境配置
-2. **02_Collaborative_Filtering_协同过滤**：学习协同过滤推荐算法
-3. **03_Content_Based_基于内容**：学习基于内容的推荐算法
-4. **04_Hybrid_Methods_混合方法**：学习混合推荐方法
-5. **05_Deep_Learning_深度学习**：学习深度学习推荐算法
-6. **06_Evaluation_评估指标**：学习推荐系统评估指标
-7. **07_Real_World_实战应用**：学习推荐系统的实战应用
+### 核心数据结构与算法
+- **652_核心数据结构_必学** - 核心数据结构
+- **653_算法思想_必学** - 算法思想
 
-### LangChain学习路径
-1. **01_Basic_Chain_基础问答链**：学习基本的PromptTemplate和LLM调用
-2. **02_Advanced_Chain_进阶链结构**：学习更复杂的链组合，如SequentialChain
-3. **03_Tools_集成外部工具**：学习如何与外部系统交互
-4. **04_RAG_检索增强生成**：学习检索增强生成技术
-5. **05_Agents_智能代理**：学习智能代理的创建和使用
-6. **06_Memory_记忆管理**：学习如何管理对话记忆
-7. **07_Evaluation_评估与优化**：学习如何评估和优化LangChain应用
-8. **08_Real_World_实战应用**：学习完整的应用开发
+### 数学基础
+- **654_数学基础_必学** - 数学基础（AI的灵魂）
 
-### LangGraph学习路径
-1. **01_Basic_Flow_基础流程**：学习基本的节点和条件边
-2. **02_Advanced_Flow_复杂流程**：学习更复杂的流程设计
-3. **03_State_Management_状态管理**：学习如何管理流程状态
-4. **04_Real_World_实战应用**：学习完整的流程应用开发
+### AI工具与算法
+- **655_AI基础工具库** - AI基础工具库
+- **656_传统机器学习算法_入门** - 传统机器学习算法
+- **657_深度学习框架与核心算法** - 深度学习框架与算法
+- **658_大模型与RAG实战项目** - 大模型与RAG实战
+- **659_大模型_AI_算法** - 大模型AI算法（当前风口）
 
-### RAG学习路径
-1. **302_RAG_Concepts_RAG概念学习**：学习RAG的核心概念和技术
-   - **01_Basic_Concepts_基础概念**：了解RAG的基本原理和核心组件
-   - **02_Document_Processing_文档处理**：学习如何加载和处理不同格式的文档
-   - **03_Embedding_向量编码**：了解如何将文本转换为向量表示
-   - **04_Vector_Storage_向量存储**：学习如何存储和管理向量数据
-   - **05_Semantic_Retrieval_语义检索**：了解如何基于语义进行相关文档检索
-   - **06_Augmented_Generation_增强生成**：学习如何基于检索结果生成回答
-   - **07_Optimization_优化策略**：了解如何优化RAG系统的性能和效果
-   - **08_Real_World_实战应用**：学习RAG系统的实际应用场景
-2. **301_RAG_落地项目**：学习RAG系统的实际落地
-   - **01_Basic_Demos_基础Demo**：学习基础的RAG功能
-   - **02_Enterprise_RAG_企业级RAG系统**：学习企业级RAG系统的设计和实现
+### 工程化
+- **660_部署与工程化** - 部署与工程化
+- **661_计算机网络_必学** - 计算机网络
 
-### 向量库学习路径
-1. **401_Vector_Database_向量库落地项目**：学习向量库的使用
-   - **01_Qdrant**：学习Qdrant向量库的使用
-   - **02_Milvus**：学习Milvus向量库的使用
+## 环境配置
 
-## RAG核心概念
-
-### 1. RAG的工作流程
-
-1. **文档加载**：将各种格式的文档（PDF、Word、TXT等）加载到系统中
-2. **文档切片**：将长文档切分为较小的文本块，以便于向量编码和检索
-3. **向量编码**：将文本转换为数字向量，使计算机能够理解文本的语义
-4. **向量存储**：将向量存储到向量数据库中，以便于快速检索
-5. **语义检索**：根据用户查询的语义含义，在向量库中检索最相关的文本块
-6. **增强生成**：将检索到的文本块与用户查询一起输入到语言模型中，生成基于文档的回答
-
-### 2. 关键技术
-
-- **文档处理**：使用LangChain等库处理不同格式的文档
-- **文本切片**：使用递归字符切片器等工具将文档切分为合适大小的文本块
-- **向量编码**：使用sentence-transformers等库将文本转换为向量
-- **向量存储**：使用Chroma、Qdrant、Milvus等向量数据库存储和检索向量
-- **语义检索**：使用相似度搜索、MMR等方法检索相关文档
-- **增强生成**：使用语言模型和提示工程生成基于文档的回答
-
-### 3. 技术栈选择
-
-| 组件 | 推荐技术 | 理由 |
-|------|----------|------|
-| 文档处理 | LangChain Document Loaders | 支持多种文档格式 |
-| 文本切片 | LangChain Text Splitters | 提供多种切片策略 |
-| 向量编码 | sentence-transformers | 轻量级，CPU可跑 |
-| 向量存储 | Chroma/Qdrant | 本地运行，易于部署 |
-| 语言模型 | Qwen/GPT-3.5 | 平衡性能和质量 |
-
-### 4. 学习目标
-
-通过学习RAG相关内容，您应该能够：
-
-1. 理解RAG的基本原理和核心组件
-2. 掌握文档处理、向量编码、向量存储、语义检索和增强生成的技术
-3. 了解如何优化RAG系统的性能和效果
-4. 能够应用RAG技术构建实际的智能问答系统
-
-### 5. 环境要求
-
-- Python 3.7+
-- 必要的依赖：
-  ```bash
-  pip install langchain sentence-transformers chromadb
-  ```
-- 可选的依赖（用于文档处理）：
-  ```bash
-  pip install pypdf python-docx
-  ```
-
-
-
-### 7. 注意事项
-
-1. 示例代码主要用于学习和演示，实际应用中可能需要根据具体场景进行调整
-2. 向量编码和语言模型可能需要较大的内存，建议在有足够内存的环境中运行
-3. 某些演示可能需要互联网连接（例如下载预训练模型）
-
-### 8. 后续学习
-
-学习完RAG相关内容后，您可以：
-
-1. 尝试构建完整的RAG系统，应用到实际项目中
-2. 探索更高级的RAG技术，如多模态RAG、实时更新等
-3. 研究向量数据库的高级特性，如索引优化、分布式部署等
-4. 学习如何评估和改进RAG系统的性能
-5. 学习其他相关技术：
-   - **402**：更多向量库的应用和实践
-   - **205**：计算机视觉相关技术
-   - **206**：其他AI相关技术
-
-## 运行示例
-
-进入对应目录，运行示例代码：
+项目依赖已在`requirements.txt`文件中列出，可以通过以下命令安装：
 
 ```bash
-python demo.py
+pip install -r requirements.txt
 ```
 
-## 注意事项
+## 使用说明
 
-- 本项目使用Qwen等通用大模型，需要配置相应的API密钥
-- 示例代码已做极简设计，便于理解和学习
-- 每个示例都包含详细的注释和学习文档
+1. 每个学习专题都包含详细的README.md文件，介绍该专题的目录结构和学习内容
+2. 大多数专题包含示例代码和实践项目，可直接运行学习
+3. 对于需要特定环境的专题，会在对应目录的README.md中提供环境配置说明
 
 ## 贡献
 
-欢迎提交Issue和Pull Request，共同完善本学习项目。
+欢迎贡献新的学习专题或改进现有内容。如有任何问题或建议，可通过Issue或Pull Request进行反馈。
+
+## 许可证
+
+本项目采用MIT许可证，可自由使用和修改。
