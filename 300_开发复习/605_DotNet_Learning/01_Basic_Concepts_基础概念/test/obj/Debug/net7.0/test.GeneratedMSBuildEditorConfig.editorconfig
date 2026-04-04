@@ -1,0 +1,11 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = test
+build_property.ProjectDir = /Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/605_DotNet_Learning/01_Basic_Concepts_基础概念/test/

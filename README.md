@@ -35,10 +35,12 @@
 - **403_Milvus_Project_Milvus项目** - Milvus向量数据库实践
 
 ### 编程语言学习
-- **501_Java_Review** - Java复习
+- **501_Java_Review** - Java生态学习（包含Spring、Redis、Netty等）
 - **601_Go_Learning** - Go语言学习
 - **602_Rust_Learning** - Rust语言学习
 - **603_C_Learning** - C语言学习
+- **604_CPP_Learning** - C++语言学习
+- **605_DotNet_Learning** - .NET学习
 - **606_JavaScript学习专题** - JavaScript学习
 - **607_Node.js学习专题** - Node.js学习
 - **608_TypeScript学习专题** - TypeScript学习
@@ -46,29 +48,6 @@
 - **610_React学习专题** - React学习
 - **611_Vue学习专题** - Vue学习
 - **612_Angular复习专题** - Angular复习
-
-### 后端框架
-- **613_MyBatis学习专题** - MyBatis学习
-- **614_Spring Boot学习专题** - Spring Boot学习
-- **615_Spring Cloud学习专题** - Spring Cloud学习
-- **616_Spring Boot Alibaba学习专题** - Spring Boot Alibaba学习
-- **617_Spring Security学习专题** - Spring Security学习
-- **618_Spring MVC学习专题** - Spring MVC学习
-- **619_Spring AI学习专题** - Spring AI学习
-- **620_Spring相关重要知识学习专题** - Spring相关知识
-
-### 数据库与缓存
-- **621_JavaRedis学习专题** - Redis学习
-- **622_Shiro学习专题** - Shiro安全框架
-- **623_Quartz学习专题** - Quartz定时任务
-- **624_Elasticsearch学习专题** - Elasticsearch搜索引擎
-- **625_Netty学习专题** - Netty网络框架
-- **630_Hibernate学习专题** - Hibernate ORM框架
-
-### 消息队列
-- **627_RocketMQ学习专题** - RocketMQ消息队列
-- **628_RabbitMQ-Client学习专题** - RabbitMQ消息队列
-- **629_Kafka学习专题** - Kafka消息队列
 
 ### Web技术
 - **631_HTTP_HTTPS学习专题** - HTTP/HTTPS协议
