@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "l1435/PTSQE=",
+  "success": true,
+  "projectFilePath": "/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/300_开发复习/605_DotNet_Learning/01_Basic_Concepts_基础概念/Program.csproj",
+  "expectedPackageFiles": [
+    "/Users/caoyang/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/caoyang/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/caoyang/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.20/microsoft.netcore.app.host.osx-arm64.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

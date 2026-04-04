@@ -1,0 +1,15 @@
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/300_开发复习/605_DotNet_Learning/01_Basic_Concepts_基础概念/bin/Debug/net8.0/Program
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/300_开发复习/605_DotNet_Learning/01_Basic_Concepts_基础概念/bin/Debug/net8.0/Program.deps.json
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/300_开发复习/605_DotNet_Learning/01_Basic_Concepts_基础概念/bin/Debug/net8.0/Program.runtimeconfig.json
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/300_开发复习/605_DotNet_Learning/01_Basic_Concepts_基础概念/bin/Debug/net8.0/Program.dll
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/300_开发复习/605_DotNet_Learning/01_Basic_Concepts_基础概念/bin/Debug/net8.0/Program.pdb
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/300_开发复习/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net8.0/Program.GeneratedMSBuildEditorConfig.editorconfig
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/300_开发复习/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net8.0/Program.AssemblyInfoInputs.cache
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/300_开发复习/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net8.0/Program.AssemblyInfo.cs
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/300_开发复习/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net8.0/Program.csproj.CoreCompileInputs.cache
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/300_开发复习/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net8.0/Program.sourcelink.json
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/300_开发复习/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net8.0/Program.dll
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/300_开发复习/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net8.0/refint/Program.dll
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/300_开发复习/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net8.0/Program.pdb
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/300_开发复习/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net8.0/Program.genruntimeconfig.cache
+/Users/caoyang/Projects/03-RAG-langchian/AI_Projects_003_RAG_LangChain_Milvus/300_开发复习/605_DotNet_Learning/01_Basic_Concepts_基础概念/obj/Debug/net8.0/ref/Program.dll

@@ -42,20 +42,6 @@ namespace BasicConcepts
             Console.WriteLine($"a / e: {a / e}");
             Console.WriteLine($"a % e: {a % e}");
             
-            Console.WriteLine("\n=== 输入输出 ===");
-            
-            // 输入输出
-            Console.Write("请输入一个数字: ");
-            string input = Console.ReadLine();
-            if (int.TryParse(input, out int num))
-            {
-                Console.WriteLine($"你输入的数字是: {num}");
-            }
-            else
-            {
-                Console.WriteLine("输入无效，请输入一个数字。");
-            }
-            
             Console.WriteLine("\n=== 类型转换 ===");
             
             // 类型转换
@@ -79,8 +65,7 @@ namespace BasicConcepts
             Console.WriteLine($"str3.ToUpper(): {str3.ToUpper()}");
             
             Console.WriteLine("\n=== 结束 ===");
-            Console.WriteLine("按任意键退出...");
-            Console.ReadKey();
+            Console.WriteLine("程序运行完成！");
         }
     }
 }

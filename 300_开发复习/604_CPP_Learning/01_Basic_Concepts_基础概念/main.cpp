@@ -1,55 +1,75 @@
 #include <iostream>
+#include <string>
 #include <iomanip>
 
+using namespace std;
+
 int main() {
-    // 基本数据类型
-    std::cout << "=== 基本数据类型 ===" << std::endl;
+    cout << "=== 基本数据类型 ===" << endl;
     
+    // 基本数据类型
     bool b = true;
     char c = 'A';
     int i = 10;
     float f = 3.14f;
     double d = 3.14159;
+    string s = "Hello, C++!";
     
-    std::cout << "bool: " << b << std::endl;
-    std::cout << "char: " << c << std::endl;
-    std::cout << "int: " << i << std::endl;
-    std::cout << "float: " << f << std::endl;
-    std::cout << "double: " << d << std::endl;
+    cout << "bool: " << b << endl;
+    cout << "char: " << c << endl;
+    cout << "int: " << i << endl;
+    cout << "float: " << f << endl;
+    cout << "double: " << d << endl;
+    cout << "string: " << s << endl;
+    
+    cout << "\n=== 变量和常量 ===" << endl;
     
     // 变量和常量
-    std::cout << "\n=== 变量和常量 ===" << std::endl;
-    
     int age = 25;
     const double PI = 3.14159;
     
-    std::cout << "age: " << age << std::endl;
-    std::cout << "PI: " << PI << std::endl;
+    cout << "age: " << age << endl;
+    cout << "PI: " << PI << endl;
+    
+    cout << "\n=== 运算符 ===" << endl;
     
     // 运算符
-    std::cout << "\n=== 运算符 ===" << std::endl;
-    
     int a = 10, e = 3;
-    std::cout << "a + e: " << a + e << std::endl;
-    std::cout << "a - e: " << a - e << std::endl;
-    std::cout << "a * e: " << a * e << std::endl;
-    std::cout << "a / e: " << a / e << std::endl;
-    std::cout << "a % e: " << a % e << std::endl;
+    cout << "a + e: " << a + e << endl;
+    cout << "a - e: " << a - e << endl;
+    cout << "a * e: " << a * e << endl;
+    cout << "a / e: " << a / e << endl;
+    cout << "a % e: " << a % e << endl;
     
-    // 输入输出
-    std::cout << "\n=== 输入输出 ===" << std::endl;
+    cout << "\n=== 类型转换 ===" << endl;
     
-    int num;
-    std::cout << "请输入一个数字: ";
-    std::cin >> num;
-    std::cout << "你输入的数字是: " << num << std::endl;
+    // 类型转换
+    int intValue = 100;
+    double doubleValue = intValue; // 隐式转换
+    intValue = static_cast<int>(doubleValue); // 显式转换
+    
+    cout << "intValue: " << intValue << endl;
+    cout << "doubleValue: " << doubleValue << endl;
+    
+    cout << "\n=== 字符串操作 ===" << endl;
+    
+    // 字符串操作
+    string str1 = "Hello";
+    string str2 = "World";
+    string str3 = str1 + " " + str2;
+    
+    cout << "str3: " << str3 << endl;
+    cout << "str3.length(): " << str3.length() << endl;
+    cout << "str3.substr(0, 5): " << str3.substr(0, 5) << endl;
+    
+    cout << "\n=== 格式化输出 ===" << endl;
     
     // 格式化输出
-    std::cout << "\n=== 格式化输出 ===" << std::endl;
+    cout << fixed << setprecision(2);
+    cout << "PI = " << PI << endl;
     
-    double pi = 3.1415926535;
-    std::cout << std::fixed << std::setprecision(2);
-    std::cout << "PI = " << pi << std::endl;
+    cout << "\n=== 结束 ===" << endl;
+    cout << "程序运行完成！" << endl;
     
     return 0;
 }
