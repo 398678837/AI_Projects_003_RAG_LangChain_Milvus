@@ -1,0 +1,29 @@
+{
+  "name": "typescript-learning",
+  "version": "1.0.0",
+  "description": "TypeScript学习专题",
+  "main": "index.js",
+  "scripts": {
+    "build:01": "tsc 01_Basic_Concepts_基础概念/demo.ts --outDir dist/01",
+    "build:02": "tsc 02_Type_System_类型系统/demo.ts --outDir dist/02",
+    "build:03": "tsc 03_Interfaces_接口/demo.ts --outDir dist/03",
+    "build:04": "tsc 04_Generics_泛型/demo.ts --outDir dist/04",
+    "build:05": "tsc 05_Classes_类/demo.ts --outDir dist/05",
+    "build:06": "tsc 06_Modules_模块化/demo.ts --outDir dist/06",
+    "build:07": "tsc 07_Advanced_Types_高级类型/demo.ts --outDir dist/07",
+    "build:08": "tsc 08_Declaration_Files_声明文件/demo.ts --outDir dist/08",
+    "build": "npm run build:01 && npm run build:02 && npm run build:03 && npm run build:04 && npm run build:05 && npm run build:06 && npm run build:07 && npm run build:08",
+    "dev:01": "ts-node 01_Basic_Concepts_基础概念/demo.ts",
+    "dev:02": "ts-node 02_Type_System_类型系统/demo.ts",
+    "dev:03": "ts-node 03_Interfaces_接口/demo.ts",
+    "dev:04": "ts-node 04_Generics_泛型/demo.ts",
+    "dev:05": "ts-node 05_Classes_类/demo.ts",
+    "dev:06": "ts-node 06_Modules_模块化/demo.ts",
+    "dev:07": "ts-node 07_Advanced_Types_高级类型/demo.ts",
+    "dev:08": "ts-node 08_Declaration_Files_声明文件/demo.ts"
+  },
+  "dependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}

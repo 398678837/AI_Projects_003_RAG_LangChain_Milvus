@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es2015"],
+    "outDir": "./dist",
+    "rootDir": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "files": [
+    "01_Basic_Concepts_基础概念/demo.ts",
+    "02_Type_System_类型系统/demo.ts",
+    "03_Interfaces_接口/demo.ts",
+    "04_Generics_泛型/demo.ts",
+    "05_Classes_类/demo.ts",
+    "06_Modules_模块化/demo.ts",
+    "07_Advanced_Types_高级类型/demo.ts",
+    "08_Declaration_Files_声明文件/demo.ts"
+  ],
+  "exclude": ["node_modules", "dist", "09_Configuration_配置", "10_Best_Practices_最佳实践"]
+}
